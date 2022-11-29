@@ -9,6 +9,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <script type="text/javascript">
+
+    function fadeOut(elID) {
+       const link = document.getElementById(elID);
+      
+      link.style.color = 'black';
+    }
+  </script>
   <title>Football Club</title>
 </head>
 
@@ -25,10 +33,10 @@
     </div>
 
     <div class="menu">
-      <a href="#">Forum</a>
-      <a href="#">Tournaments</a>
-      <a href="#">Pickup</a>
-      <a href="#">Contact</a>
+      <a id="link1" onclick="fadeOut('link1')" href="#">Forum</a>
+      <a id="link2" onclick="fadeOut('link2')" href="#">Tournaments</a>
+      <a id="link3" onclick="fadeOut('link3')" href="#">Pickup</a>
+      <a id="link4" onclick="fadeOut('link4')" href="#">Contact</a>
     </div>
 
   </div>
@@ -53,7 +61,7 @@
 
         <p>
           Pickup soccer is the best way to get started.
-          <a href="#">Reserve your spot now!</a>
+          <a id="link8" onclick="fadeOut('link8')" href="#">Reserve your spot now!</a>
         </p>
 
       </div>
@@ -64,7 +72,7 @@
 
         <p>
           Fuel your competitive nature.
-          <a href="#">Sign up for a tournament!</a>
+          <a id="link5" onclick="fadeOut('link5')" href="#">Sign up for a tournament!</a>
         </p>
 
       </div>
@@ -75,7 +83,7 @@
 
         <p>
           Get to know your fellow futbolistas.
-          <a href="#">Chat in the forum!</a>
+          <a id="link6" onclick="fadeOut('link6')" href="#">Chat in the forum!</a>
         </p>
 
       </div>
@@ -91,7 +99,7 @@
     </div>
 
     <div class="inquiries">
-      <a class="questions" href="#">
+      <a id="link7" onclick="fadeOut('link7')" class="questions" href="#">
         Questions? Click here.
       </a>
     </div>

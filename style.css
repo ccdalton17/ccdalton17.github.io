@@ -75,6 +75,10 @@ h2 {
   padding: 0 0.5rem;
 }
 
+.links {
+  transition: color 6s;
+}
+
 h2 {
   font-size: 2rem;
 }
@@ -124,6 +128,7 @@ p {
 
 .img-container img {
   width: 80vh;
+  border-radius: 5%;
 }
 
 .img-container p, a {
